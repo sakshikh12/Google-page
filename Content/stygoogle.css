@@ -1,0 +1,281 @@
+#header
+{
+	background-color:#F6F6F6;
+	width:100%;
+	padding:10px;
+	height:50px;
+}
+
+#headerimg
+{
+	position:absolute;
+	height:6%;
+	width:5%;
+	left:4%;
+	top:4%;
+}
+
+#headerbtn
+{
+	position:absolute;
+	right:4%;
+	top:5%;
+	background-color:#00AFFB;
+}
+
+h1
+{
+	
+	font-size: 38px;
+    font-weight: 300;
+	text-align:center;
+	font-family:Open Sans,Arial;
+	color:#555;
+}
+.division
+{
+	position:relative;
+	height:300px;
+	width: 100%;
+}
+
+#leftPart
+{
+	width:50%;
+	height:100%;
+	position:absolute;
+}
+
+#leftOne
+{
+	position:absolute;
+	width:100%;
+	float:left;
+	top:0%;
+}
+
+h3
+{
+	font-size:120%;
+	text-align:center;
+	font-family:Open Sans,Arial;
+	color:#555;
+}
+
+h4
+{
+	font-size:90%;
+	text-align:center;
+	font-family:Open Sans,Arial;
+	color:#555;
+}
+
+#leftTwo
+{
+	position:absolute;
+	width:100%;
+	top:40%;
+}
+
+#sprte
+{
+	position:relative;
+	display:block;
+	width:40%;
+	left:30%;
+	height:30%;
+}
+
+#leftThree
+{
+	position:absolute;
+	width:100%;
+	float:left;
+	top:60%;
+}
+
+#leftFour
+{
+	position:absolute;
+	width:100%;
+	top:100%;
+}
+
+#pc
+{
+	position:relative;
+	display:block;
+	width:45%;
+	left:28%;
+	height:50%;
+}
+
+#rightPart
+{
+	position:absolute;
+	width:50%;
+	right:0%;
+	left:55%;
+}
+
+#theForm
+{
+	position:absolute;
+	width:60%;
+	height:40%;
+	color:black;
+	display:table;
+	padding-left:30px;
+	padding-right:0px;
+	padding-bottom:55px;
+	margin-bottom:60%;
+	background-color:#F6F6F6;
+}
+#row1
+{
+	position:relative;
+	left:10%;
+}
+
+#lblText1
+{
+	position:relative;
+	width:40%;
+	display:inline;
+	
+	
+}
+
+#lblText2
+{
+	position:relative;
+	width:40%;
+	left:3%;
+	display:inline;
+
+}
+
+#fname , #sname
+{
+	
+	width:40%;
+	
+}
+
+#row2
+{
+	width:100%;
+}
+
+#row8
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#usrlbl
+{
+	width:80%;
+}
+#username
+{
+	width:107%;
+	
+}
+.pwlbl
+{
+	width:80%;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+#password , #confrmPassword 
+{
+	width:107%;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	
+}
+	
+#monthText
+{
+	position:relative;
+	width:40%;
+	display:inline;
+}
+#dayText
+{
+	position:relative;
+	width:40%;
+	display:inline;
+}
+#yearText
+{
+	position:relative;
+	width:40%;
+	display:inline;
+}
+
+#month
+{
+	width:35%;
+
+}
+
+#day
+{
+	width:20%;
+}
+
+#year
+{
+	width:27%;
+}
+
+#contact , #email , #gender , #location
+{
+	width:86%;
+}
+
+
+#location
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#b
+{
+	position:relative;
+	width:40%;
+	display:inline;
+	left:66%;
+}
+
+#submitButton
+{
+	
+	background-color:#00AFFB;
+	width:20%;
+}
+
+#addedElement1 ,#addedElement2,#addedElement3,#addedElement4,#addedElement5,#addedElement6,#addedElement7
+{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+#add1,#add2,#add3,#add4,#add5,#add6,#add7
+{
+	padding:0px;
+	margin-top:0px;
+	color:red;
+	margin-bottom:0px;
+}
+#nN1
+{
+	padding:0px;
+	margin-top:0px;
+	color:blue;
+	margin-bottom:0px;
+}
+	
+	

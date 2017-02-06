@@ -1,0 +1,538 @@
+<!doctype html>
+<html>
+<head>
+    <title> Google.com </title>
+    <link href="../Content/stygoogle.css" rel="stylesheet" />
+
+    <script src="../Scripts/jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div id="header">
+            <img src="../images/google-logo.jpg" id="headerimg" />
+            <button type="button" id="headerbtn">Sign in</button>
+
+        </div>
+
+        <div id="heading">
+            <h1> Create your Google Account <h1>
+        </div>
+
+        <div class="division">
+
+            <div id="leftPart">
+
+                <div class="leftOne">
+                    
+                    <h3> One account is all you need </h3>
+                    <h4> One free account gets you into everything Google. </h4>
+
+                </div>
+
+                <div id="leftTwo">
+                    <img src="../images/sprite.png" id="sprte" />
+                   
+
+                </div>
+
+                <div id="leftThree">
+
+                    <h3> Take it all with you </h3>
+                    <h4> Switch between devices, and pick up wherever you left off. </h4>
+
+                </div>
+
+                <div id="leftFour">
+                    <img src="../images/pc.PNG" id="pc" />
+                   
+                </div>
+
+            </div>
+
+            <div id="rightPart">
+
+                <form id="theForm" action="" method="">
+                    <p id="paragraph">
+                        <div class="row1">
+                            <div class="lbl">
+                                <label for="fname">First Name</label>
+                            </div>
+                            <div id="lblText">
+                                <div id="lblText1">
+                                    <input type="text" id="fname" class="in1" placeholder="First">
+                                </div>
+                                <div id="lblText2">
+                                    <input type="text" id="sname" class="in2" placeholder="Second">
+                                </div>
+                                <div id="addedElement1">
+                    <p id="add1"> You can't leave this empty </p>
+            </div>
+            <div id="nameNumber">
+                <p id="nN1"> Name can't contain numbers </p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="row2">
+        <div class="lbl">
+            <label for="username">Choose your username</label><br>
+        </div>
+        <div id="usrlbl">
+            <input type="email" id="username" name="">
+            <div id="addedElement2">
+                <p id="add2"> You can't leave this empty </p>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="row3">
+        <div class="lbl">
+            <label for="password">Create a password</label><br>
+        </div>
+        <div class="pwlbl">
+            <input type="password" id="password" name="">
+            <div id="addedElement3">
+                <p id="add3"> You can't leave this empty </p>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="row4">
+        <div class="lbl">
+            <label for="confrmPassword">Confirm your password</label><br>
+        </div>
+        <div class="pwlbl">
+            <input type="password" id="confrmPassword" name="">
+            <div id="addedElement4">
+                <p id="add4"> You can't leave this empty </p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="row4">
+        <div class="lbl">
+            <label for="birthDay">Birthday</label><br>
+        </div>
+
+        <div id="monthText">
+            <input type="text" id="month" name="" list="bday" placeholder="Month">
+            <datalist id="bday">
+                <option value="January" />
+                <option value="Feburary" />
+                <option value="March" />
+                <option value="April" />
+                <option value="May" />
+                <option value="June" />
+                <option value="July" />
+                <option value="August" />
+                <option value="September" />
+                <option value="October" />
+                <option value="November" />
+                <option value="December" />
+            </datalist>
+
+        </div>
+        <div id="dayText">
+            <input type="text" id="day" name="" placeholder="Day">
+        </div>
+
+        <div id="yearText">
+            <input type="text" id="year" name="" placeholder="Year">
+            <div id="addedElement5">
+                <p id="add5"> You can't leave this empty </p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="row5">
+        <div class="lbl">
+            <label for="gender">Gender</label><br>
+        </div>
+        <div id="gnderList">
+            <input type="text" id="gender" list="gndr">
+            <datalist id="gndr">
+                <option value="Female" />
+                <option value="Male" />
+                <option value="Other" />
+                <option value="Rather not say" />
+            </datalist>
+            <div id="addedElement6">
+                <p id="add6"> You can't leave this empty </p>
+            </div>
+        </div>
+        <br>
+
+
+    </div>
+
+    <div class="row6">
+        <div class="lbl">
+            <label for="contact">Mobile No.</label><br>
+        </div>
+        <div id="phone">
+            <input type="tel" id="contact" name=""><br><br>
+        </div>
+    </div>
+
+    <div class="row7">
+        <div class="lbl">
+            <label for="email">Your current email address</label><br>
+        </div>
+        <div id="mail">
+            <input type="email" id="email" name="">
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="row8">
+        <div class="lbl>
+							<label for = " location">
+            Location</label><br>
+        </div>
+        <div id="loc">
+            <input type="text" id="location" name="">
+            <div id="addedElement7">
+                <p id="add7"> You can't leave this empty </p>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="row9">
+        <div id="b">
+            <button type="button" id="submitButton">Next step</button>
+        </div>
+    </div>
+    </p>
+    </form>
+
+    </div>
+
+    </div>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#addedElement1").hide();
+            $("#addedElement2").hide();
+            $("#addedElement3").hide();
+            $("#addedElement4").hide();
+            $("#addedElement5").hide();
+            $("#addedElement6").hide();
+            $("#addedElement7").hide();
+            $("#nameNumber").hide();
+
+
+            var val = 1;
+
+            var box = document.getElementById("fname");
+            var box1 = document.getElementById("sname");
+            var box2 = document.getElementById("username");
+            var box3 = document.getElementById("password");
+            var box4 = document.getElementById("confrmPassword");
+            var box5 = document.getElementById("month");
+            var box6 = document.getElementById("day");
+            var box7 = document.getElementById("year");
+            var box8 = document.getElementById("gender");
+            var box9 = document.getElementById("location");
+
+
+            function focusin(ele) {
+                $("#" + ele).focus(function () {
+
+                    var box = document.getElementById(ele);
+                    //window.alert("inside focus in " + box);
+                    switch (ele) {
+                        case "fname":
+                            count = 1;
+                            break;
+                        case "sname":
+                            count = 1;
+                            break
+                        case "username":
+                            count = 2;
+                            break;
+                        case "confrmPassword":
+                            count = 4;
+                            break;
+                        case "month":
+                            count = 5;
+                            break;
+                        case "day":
+                            count = 5;
+                            break;
+                        case "year":
+                            count = 5;
+                            break;
+                        case "gender":
+                            count = 6;
+                            break;
+                        case "location":
+                            count = 7;
+                            break;
+                    }
+
+                    $("#addedElement" + count).hide();
+                    box.style.border = "none";
+
+
+
+                });
+            }
+            $("#fname").click(function () {
+                var ele = "fname";
+
+                foc(ele);
+
+            });
+            $("#sname").click(function () {
+                var ele = "sname";
+                foc(ele);
+            });
+
+            $("#username").click(function () {
+                var ele = "username";
+                foc(ele);
+            });
+
+            $("#password").click(function () {
+                var ele = "password";
+                foc(ele);
+            });
+
+            $("#confrmPassword").click(function () {
+                var ele = "confrmPassword";
+                foc(ele);
+            });
+
+            $("#month").click(function () {
+                var ele = "month";
+                foc(ele);
+            });
+
+            $("#day").click(function () {
+                var ele = "day";
+                foc(ele);
+            });
+
+            $("#year").click(function () {
+                var ele = "year";
+                foc(ele);
+            });
+            $("#gender").click(function () {
+                var ele = "gender";
+                foc(ele);
+            });
+            $("#location").click(function () {
+                var ele = "location";
+                foc(ele);
+            });
+
+            var count;
+            function foc(ele) {
+                $("#" + ele).focusout(function () {
+
+                    var box = document.getElementById(ele);
+                    switch (ele) {
+                        case "fname":
+                            count = 1;
+                            break;
+                        case "sname":
+                            count = 1;
+                            break
+                        case "username":
+                            count = 2;
+                            break;
+                        case "password":
+                            count = 3;
+                            break;
+                        case "confrmPassword":
+                            count = 4;
+                            break;
+                        case "month":
+                            count = 5;
+                            break;
+                        case "day":
+                            count = 5;
+                            break;
+                        case "year":
+                            count = 5;
+                            break;
+                        case "gender":
+                            count = 6;
+                            break;
+                        case "location":
+                            count = 7;
+                            break;
+                    }
+
+                    if (box.value == "") {
+                        $("#addedElement" + count).show();
+                        box.style.border = "solid 1px red";
+                        val = 0;
+                        console.log(val)
+                    }
+
+
+                    else {
+                        val = 1;
+                    }
+                    if (val == 0) {
+                        //console.log("here")
+
+                        focusin(ele);
+                    }
+                    else {
+                        //return;
+                    }
+
+                });
+
+
+            }
+
+
+            $("#submitButton").click(function () {
+
+                if (box.value == "") {
+                    $("#addedElement1").show();
+                    box.style.border = "solid 1px red";
+                }
+                if (box1.value == "") {
+
+                    $("#addedElement1").show();
+                    box1.style.border = "solid 1px red";
+                }
+                if (box2.value == "") {
+                    $("#addedElement2").show();
+                    box2.style.border = "solid 1px red";
+                }
+                if (box3.value == "") {
+
+                    $("#addedElement3").show();
+                    box3.style.border = "solid 1px red";
+                }
+                if (box4.value == "") {
+
+                    $("#addedElement4").show();
+                    box4.style.border = "solid 1px red";
+                }
+                if (box5.value == "") {
+
+                    $("#addedElement5").show();
+                    box5.style.border = "solid 1px red";
+                }
+                if (box6.value == "") {
+
+                    $("#addedElement5").show();
+                    box6.style.border = "solid 1px red";
+                }
+                if (box7.value == "") {
+
+                    $("#addedElement5").show();
+                    box7.style.border = "solid 1px red";
+                }
+                if (box8.value == "") {
+
+                    $("#addedElement6").show();
+                    box8.style.border = "solid 1px red";
+                }
+                if (box9.value == "") {
+
+                    $("#addedElement7").show();
+                    box9.style.border = "solid 1px red";
+                }
+                for (var i = 0; i < box.value.length; i++) {
+
+                    if (box.value.charAt(i) > 0 && box.value.charAt(i) < 9) {
+                        window.alert("Name can't contain numbers");
+                        $("#nameNumber").show();
+
+                    }
+                }
+                for (var i = 0; i < box1.value.length; i++) {
+
+                    if (box1.value.charAt(i) > 0 && box1.value.charAt(i) < 9) {
+                        window.alert("Name can't contain numbers");
+                        $("#nameNumber").show();
+
+                    }
+                }
+
+                if (box3.value != box4.value) {
+                    window.alert("Passwords don't match");
+                }
+
+
+
+
+            });
+
+            /*function foc(ele, par)
+            {
+                $("#"+ele).focusout(function()
+                {
+                    var box=document.getElementById(ele);
+                    if(box.value==""&& $('#p1').length==0)
+                    {
+                        var element = document.createElement("p");
+                        element.setAttribute("id", "p1");
+                        var parent= document.getElementById(par);
+                        parent.appendChild(element);
+                        var text=document.createTextNode("You can't leave this empty");
+                        element.appendChild(text);
+
+                        element.style.color="red";
+                        element.style.margin="4px";
+                        element.style.marginBottom="0px";
+
+                        box.style.border="solid 2px red";
+                    }
+                });
+                return false;
+            }
+
+            function rem(ele)
+            {
+                var box=document.getElementById(ele);
+                var elementP="#p1";
+                $(elementP).remove();
+                box.focus();
+                box.style.border="";
+            }
+
+            function checkPw(inputtxt)
+            {
+                var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+                if(inputtxt.value.match(passw))
+                {
+                    alert('Correct')
+                    return true;
+                }
+                else
+                {
+                    alert('Wrong')
+                    return false;
+                }
+            }*/
+        });
+
+    </script>
+</body>
+</html>
